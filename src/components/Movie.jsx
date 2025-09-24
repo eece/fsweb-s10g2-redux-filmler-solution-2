@@ -28,11 +28,11 @@ const Movie = (props) => {
   return (
     <div className="bg-white rounded-md shadow flex-1">
       <div className="p-5 pb-3 border-b border-zinc-200">
-        <h4 className="text-xl font-bold">{movie.title} Detayları</h4>
+        <h4 className="text-xl font-bold">{movie.title} Detayları:</h4>
       </div>
       <div className="px-5 py-3">
         <div className="py-1 flex">
-          <div className="view-label">İsim</div>
+          <div className="view-label">İsim:</div>
           <div className="flex-1">{movie.title}</div>
         </div>
         <div className="py-1 flex">
